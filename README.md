@@ -1,4 +1,4 @@
-Debian-Redis
+Debian-Rmate
 ============
 
 Edit files from an ssh session in TextMate 2
