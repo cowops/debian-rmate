@@ -1,6 +1,6 @@
 ---
 - name: install rmate
   get_url:
-    url: https://raw.githubusercontent.com/textmate/rmate/master/bin/rmate
+    url: https://raw.githubusercontent.com/aurora/rmate/master/rmate
     dest: /usr/local/bin/rmate
     mode: a+rx
