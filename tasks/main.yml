@@ -1,8 +1,6 @@
 ---
-- name: install gems package
-  apt: pkg={{ item }} state=latest
-  with_items:
-    - rubygems
-
 - name: install rmate
-  gem: name=rmate state=latest user_install=no
+  get_url:
+    url: https://raw.githubusercontent.com/textmate/rmate/master/bin/rmate
+    dest: /usr/local/bin/rmate
+    mode: a+rx
